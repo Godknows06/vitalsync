@@ -1,0 +1,125 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Navigation */
+header {
+    background: #007BFF;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 50px;
+    background: url('fitness.jpg') no-repeat center center/cover;
+    color: white;
+}
+.cta {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #28a745;
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+/* Featured Section */
+.featured-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.featured-item {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 45%;
+    text-align: center;
+}
+.btn-article {
+    display: block;
+    padding: 10px;
+    background: #ff5722;
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+/* Articles */
+.articles-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+.article {
+    width: 30%;
+    background: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.show-more {
+    padding: 10px;
+    background: #17a2b8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Blogs */
+#blogs {
+    text-align: center;
+    padding: 20px;
+}
+#blogContent {
+    width: 80%;
+    height: 100px;
+    margin-bottom: 10px;
+}
+#postBlog {
+    padding: 10px;
+    background: #ffc107;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Contact & About */
+.contact-container, .about-container {
+    text-align: center;
+    padding: 20px;
+    background: white;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.quote-container {
+    font-style: italic;
+    font-size: 18px;
+    margin-top: 10px;
+}
